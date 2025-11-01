@@ -1,0 +1,18 @@
+[project]
+name = "project-1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "huggingface-hub>=0.36.0",
+    "langchain>=1.0.2",
+    "langchain-google-genai>=3.0.0",
+    "langchain-huggingface>=1.0.0",
+    "langchain-openai>=1.0.1",
+    "langgraph>=1.0.1",
+    "openai>=2.6.0",
+    "python-dotenv>=1.1.1",
+    "torch>=2.9.0",
+    "transformers>=4.57.1",
+]
